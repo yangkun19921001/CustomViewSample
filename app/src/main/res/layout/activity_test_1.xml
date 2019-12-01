@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <!--<com.devyk.custom_view.paint.MyGradientView android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"/>-->
+
+    <!--
+        <com.devyk.custom_view.paint.LinearGradientTextView
+                android:text="欢迎来到文字渐变的世界"
+                android:layout_centerInParent="true"
+                android:textSize="30sp"
+                android:textColor="#666666"
+                android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+        </com.devyk.custom_view.paint.LinearGradientTextView>
+    -->
+
+
+    <!--
+        <com.devyk.custom_view.paint.RadarGradientView android:layout_width="wrap_content"
+                                                       android:layout_height="wrap_content"/>
+    -->
+
+    <!--<com.devyk.custom_view.paint.ZoomImageView android:layout_height="wrap_content"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--&gt;</com.devyk.custom_view.paint.ZoomImageView>-->
+
+
+    <!--<com.devyk.custom_view.paint.FilterView android:layout_width="match_parent" android:layout_height="match_parent"/>-->
+
+    <!--<com.devyk.custom_view.paint.XfermodeView android:layout_width="match_parent" android:layout_height="match_parent"/>-->
+
+    <!--<com.devyk.custom_view.paint.xfermode.RoudImageView-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+    <com.devyk.custom_view.paint.xfermode.GuaGuaCardView android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"/>
+</RelativeLayout>

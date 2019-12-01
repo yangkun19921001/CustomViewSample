@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <!--<com.devyk.customview.sample_1.CircleView2-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:background="#000"-->
+            <!--android:layout_height="100dp"/>-->
+
+
+    <!--<com.devyk.customview.sample_1.CircleView2-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:background="#9C27B0"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:layout_height="100dp"/>-->
+
+    <!--<com.devyk.customview.sample_1.CircleView2-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:background="#2196F3"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:padding="20dp"-->
+            <!--android:layout_height="100dp"/>-->
+
+    <!--<com.devyk.customview.sample_1.CircleView3-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:background="#8BC34A"-->
+            <!--android:layout_margin="20dp"-->
+            <!--app:circle_view_color = "#3F51B5"-->
+            <!--android:padding="20dp"-->
+            <!--android:layout_height="100dp"/>-->
+
+    <com.devyk.custom_view.flow.TagFlowLayout
+    android:id="@+id/mFlowLayout"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    app:max_select="-1"
+    >
+
+    </com.devyk.custom_view.flow.TagFlowLayout>
+</LinearLayout>

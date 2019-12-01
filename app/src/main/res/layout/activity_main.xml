@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.devyk.customview.sample_1.ScrollerViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <com.devyk.customview.sample_1.MyRecyclerView
+            android:id="@+id/recyclerView" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </com.devyk.customview.sample_1.MyRecyclerView>
+    <com.devyk.customview.sample_1.MyRecyclerView
+            android:id="@+id/recyclerView2" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </com.devyk.customview.sample_1.MyRecyclerView>
+    <com.devyk.customview.sample_1.MyRecyclerView
+            android:id="@+id/recyclerView3" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </com.devyk.customview.sample_1.MyRecyclerView>
+</com.devyk.customview.sample_1.ScrollerViewPager>
+
+
+        <!--<Button-->
+        <!--android:id="@+id/btn_1"-->
+        <!--android:text="1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+        <!--<Button-->
+        <!--android:id="@+id/btn_2"-->
+        <!--android:text="2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+        <!--<Button-->
+        <!--android:id="@+id/btn_3"-->
+        <!--android:text="3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+        <!--<Button-->
+        <!--android:id="@+id/btn_4"-->
+        <!--android:text="4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+        <!--<Button-->
+        <!--android:id="@+id/btn_5"-->
+        <!--android:text="5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+        <!--<com.devyk.customview.sample_1.Button-->
+        <!--android:id="@+id/btn_6"-->
+        <!--android:text="6"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+
