@@ -64,7 +64,7 @@ class CanvasSample : Activity() {
 
         setContentView(R.layout.activity_canvas_sample)
 
-        initData()
+//        initData()
 
 
 
@@ -83,6 +83,6 @@ class CanvasSample : Activity() {
             )
             revealDrawables[i] = rd
         }
-        gallaryHorizonalScrollView.addImageViews(revealDrawables)
+//        gallaryHorizonalScrollView.addImageViews(revealDrawables)
     }
 }

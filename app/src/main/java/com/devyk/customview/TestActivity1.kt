@@ -21,10 +21,6 @@ public class TestActivity1 : Activity(){
 //        setContentView(R.layout.activity_test_1)
 
 
-        var dialot  = Dialog(this)
-        dialot.setTitle("你好")
-        dialot.show()
-        dialot.window!!.setBackgroundDrawableResource(R.drawable.shade)
 
     }
 }
