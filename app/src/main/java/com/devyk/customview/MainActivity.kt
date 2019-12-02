@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
 
 
@@ -35,9 +36,6 @@ class MainActivity : AppCompatActivity() {
 
             println("recyclerView post :$width + $height")
         }
-
-
-
     }
 
     private fun getListData(i: String): List< String> {

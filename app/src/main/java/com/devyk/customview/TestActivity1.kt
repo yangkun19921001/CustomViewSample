@@ -1,6 +1,7 @@
 package com.devyk.customview
 
 import android.app.Activity
+import android.app.Dialog
 import android.os.Bundle
 
 /**
@@ -15,6 +16,15 @@ import android.os.Bundle
 public class TestActivity1 : Activity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_test_1)
+
+//        setContentView(R.layout.activity_test_1)
+//        setContentView(R.layout.activity_test_1)
+
+
+        var dialot  = Dialog(this)
+        dialot.setTitle("你好")
+        dialot.show()
+        dialot.window!!.setBackgroundDrawableResource(R.drawable.shade)
+
     }
 }
