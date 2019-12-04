@@ -8,6 +8,7 @@ import com.devyk.custom_view.canvas.path.PathView
 import com.devyk.custom_view.canvas.path_measure.CarRotate
 import com.devyk.custom_view.canvas.path_measure.FaceLoadingView
 import com.devyk.custom_view.canvas.path_measure.PathMeasureView
+import com.devyk.custom_view.canvas.path_measure.SpiderWebView
 
 /**
  * <pre>
@@ -27,7 +28,8 @@ public class PathActivity : Activity(){
 //        setContentView(PathView(this))
 //        setContentView(PathMeasureView(this))
 //        setContentView(CarRotate(this))
-        setContentView(FaceLoadingView(this))
+//        setContentView(FaceLoadingView(this))
+        setContentView(SpiderWebView(this))
     }
 
 }
