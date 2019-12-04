@@ -1,9 +1,7 @@
 package com.devyk.custom_view.base
 
 import android.content.Context
-import android.graphics.Canvas
-import android.graphics.Paint
-import android.graphics.Point
+import android.graphics.*
 import android.util.AttributeSet
 import android.view.View
 import android.view.WindowManager
@@ -23,6 +21,15 @@ open class BaseView : View {
     private var mGridPaint: Paint? = null//网格画笔
     private var mWinSize: Point? = null//屏幕尺寸
     private var mCoo: Point? = null//坐标系原点
+
+
+    public var mViewWidth: Int = 0
+    public var mViewHeight: Int = 0
+
+    public var mTempPath = Path()
+    public var mTempPaint = Paint(Paint.ANTI_ALIAS_FLAG)
+
+
 
     /**
      * 基础 Paint
@@ -48,12 +55,21 @@ open class BaseView : View {
         init(context, attrs)
     }
 
+    override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
+        super.onSizeChanged(w, h, oldw, oldh)
+        mViewWidth = w
+        mViewHeight = h
+    }
+
     public open fun init(context: Context?, attrs: AttributeSet?) {
         //准备屏幕尺寸
         mWinSize = Point()
         mCoo = Point(mX, mY)
         Utils.loadWinSize(getContext(), mWinSize)
         mGridPaint = Paint(Paint.ANTI_ALIAS_FLAG)
+
+        mTempPaint.color = Color.RED
+        mTempPaint.strokeWidth = 5f
 
     }
 
