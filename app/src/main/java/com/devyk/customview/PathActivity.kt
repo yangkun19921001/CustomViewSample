@@ -6,6 +6,7 @@ import android.view.Window
 import android.view.WindowManager
 import com.devyk.custom_view.canvas.path.PathView
 import com.devyk.custom_view.canvas.path_measure.CarRotate
+import com.devyk.custom_view.canvas.path_measure.FaceLoadingView
 import com.devyk.custom_view.canvas.path_measure.PathMeasureView
 
 /**
@@ -25,7 +26,8 @@ public class PathActivity : Activity(){
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN)
 //        setContentView(PathView(this))
 //        setContentView(PathMeasureView(this))
-        setContentView(CarRotate(this))
+//        setContentView(CarRotate(this))
+        setContentView(FaceLoadingView(this))
     }
 
 }
