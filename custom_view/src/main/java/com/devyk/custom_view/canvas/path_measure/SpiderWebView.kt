@@ -131,10 +131,11 @@ class SpiderWebView : BaseView {
                 if (j == 0) {
                     path.moveTo(centerX + currentRadius, centerY)
                 } else {
+                    if (j == 1){
                     val x = (centerX + currentRadius * Math.cos((angle * j).toDouble())).toFloat()
                     val y = (centerY + currentRadius * Math.sin((angle * j).toDouble())).toFloat()
-                    println("绘制线坐标点：$x , $y 角度cas${Math.cos((angle * j).toDouble())} 角度sin${Math.sin((angle * j).toDouble())}")
-                    path.lineTo(x, y)
+                    println("绘制线坐标点：$x , $y 角度cas${angle * j} 角度sin${Math.sin((angle * j).toDouble())}")
+                    path.lineTo(x, y)}
                 }
             }
 
@@ -150,6 +151,7 @@ class SpiderWebView : BaseView {
             val y = (centerY + radius * Math.sin((angle * i).toDouble())).toFloat()
             path.lineTo(x, y)
             canvas.drawPath(path, netPaint)
+
         }
 
     }
@@ -159,7 +161,6 @@ class SpiderWebView : BaseView {
         val fontHeight = fontMetrics.descent - fontMetrics.ascent //文字的高度
 
         //修正标题
-
         for (i in 0 until count) {
             val x = (centerX + (radius + fontHeight / 2) * Math.cos((angle * i).toDouble())).toFloat()
             val y = (centerY + (radius + fontHeight / 2) * Math.sin((angle * i).toDouble())).toFloat()
