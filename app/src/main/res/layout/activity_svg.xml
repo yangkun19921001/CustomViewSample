@@ -12,10 +12,36 @@
             android:layout_height="wrap_content"/>
 
 
-    <Button
-            android:id="@+id/startSearchAnimator"
-            android:text="执行搜索动画"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+
+        <Button
+                android:id="@+id/startWaterDropAnimator"
+                android:text="执行水滴动画"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/startSearchAnimator"
+                android:text="执行搜索动画"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/startPoliceCarAnimator"
+                android:text="执行警车动画"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/startTTAnimator"
+                android:text="执行头条动画"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
 
 </RelativeLayout>

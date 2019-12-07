@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 xmlns:tools="http://schemas.android.com/tools"
+                 android:drawable="@drawable/ic_police_car"
+                 tools:targetApi="lollipop">
+
+
+
+    <target android:animation="@animator/anim_start"
+            android:name="car_2"></target>
+    <target android:animation="@animator/anim_start"
+            android:name="car_3"></target>
+    <target android:animation="@animator/anim_start"
+            android:name="car_4"></target>
+    <target android:animation="@animator/anim_start"
+            android:name="car_5"></target>
+    <target android:animation="@animator/anim_start"
+            android:name="car_6"></target>
+    <target android:animation="@animator/anim_start"
+            android:name="car_7"></target>
+    <target android:animation="@animator/anim_start"
+            android:name="car_8"></target>
+    <target android:animation="@animator/anim_start"
+            android:name="car_10"></target>
+    <target android:animation="@animator/anim_start"
+            android:name="car_12"></target>
+
+
+    <target android:animation="@animator/anim_infinite"
+            android:name="car_1"></target>
+
+    <target android:animation="@animator/anim_infinite"
+            android:name="car_9"></target>
+    <target android:animation="@animator/anim_infinite"
+            android:name="car_11"></target>
+
+</animated-vector>
+

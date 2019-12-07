@@ -7,6 +7,7 @@ import android.util.AttributeSet
 import android.util.Log
 import android.view.MotionEvent
 import android.view.View
+import com.devyk.custom_view.R
 import com.devyk.custom_view.svg.map.Dom2XmlUtils.Companion.MAP_RECTF
 
 
@@ -55,7 +56,7 @@ class MapView : View {
     var mapDataList = ArrayList<MapData>()
 
     /**
-     * 绘制地图
+     * 绘制 Text
      */
     var mPaintPath = Paint(Paint.ANTI_ALIAS_FLAG)
     var mPaintText = Paint(Paint.ANTI_ALIAS_FLAG)
@@ -76,13 +77,13 @@ class MapView : View {
         mPaintText.setColor(Color.WHITE)
         mPaintText.setStyle(Paint.Style.FILL_AND_STROKE)
         mPaintText.setTextSize(12f)
-        Log.d(TAG, "init")
 
         mPaintTextTitle.setColor(Color.RED)
         mPaintTextTitle.textSize = 50f
 
+
         //子线程解析 xml
-        val thread = Thread {
+         Thread {
             val inputStream = context.resources.openRawResource(com.devyk.custom_view.R.raw.chinahigh)
             val mapData = Dom2XmlUtils.dom2xml(inputStream)
             this.post {

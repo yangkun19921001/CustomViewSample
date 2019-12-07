@@ -1,6 +1,8 @@
 package com.devyk.customview
 
 import android.app.Activity
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -17,10 +19,10 @@ import kotlinx.android.synthetic.main.activity_test.*
  *     blog    : https://juejin.im/user/578259398ac2470061f3a3fb/posts
  *     github  : https://github.com/yangkun19921001
  *     mailbox : yang1001yk@gmail.com
- *     desc    : This is TestActivity
+ *     desc    : This is FlowLayoutActivity
  * </pre>
  */
-class TestActivity : Activity() {
+class FlowLayoutActivity : Activity() {
 
     var TAG = this.javaClass.simpleName
 

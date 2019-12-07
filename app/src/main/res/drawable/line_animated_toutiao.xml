@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 xmlns:tools="http://schemas.android.com/tools"
+                 android:drawable="@drawable/ic_toutiao"
+
+                 tools:targetApi="lollipop">
+
+
+    <target
+            android:animation="@animator/tt_path_one"
+            android:name="tt_1"/>
+
+    <target
+            android:animation="@animator/tt_path_two"
+            android:name="tt_2"/>
+
+    <target
+            android:animation="@animator/tt_path_three"
+            android:name="tt_3"/>
+
+
+</animated-vector>
+
