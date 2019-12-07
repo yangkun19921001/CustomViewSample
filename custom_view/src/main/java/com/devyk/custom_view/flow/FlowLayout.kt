@@ -6,10 +6,10 @@ import android.util.LayoutDirection
 import android.util.Log
 import android.view.ViewGroup
 import android.view.View
-import androidx.core.text.TextUtilsCompat
 import java.util.*
 import kotlin.collections.ArrayList
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import androidx.core.text.TextUtilsCompat
 import com.devyk.custom_view.R
 
 

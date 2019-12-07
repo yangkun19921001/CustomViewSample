@@ -1,8 +1,8 @@
 package com.devyk.customview
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MotionEvent
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.devyk.customview.adapter.RecyclerViewAdapter
 import kotlinx.android.synthetic.main.activity_main.*

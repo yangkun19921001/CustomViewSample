@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 xmlns:tools="http://schemas.android.com/tools"
+                 android:drawable="@drawable/search_svg"
+                 tools:targetApi="lollipop">
+
+    <target android:animation="@animator/anim_start"
+            android:name="svg_1"></target>
+    <target android:animation="@animator/anim_start"
+            android:name="svg_2"></target>
+
+    <target android:animation="@animator/anim_start"
+            android:name="svg_3"></target>
+</animated-vector>
+

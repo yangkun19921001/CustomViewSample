@@ -7,10 +7,10 @@ import android.graphics.*
 import android.graphics.Canvas.ALL_SAVE_FLAG
 import android.os.Build
 import android.util.AttributeSet
-import androidx.annotation.RequiresApi
 import com.devyk.custom_view.base.BaseView
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import androidx.annotation.RequiresApi
 import com.devyk.custom_view.R
 
 

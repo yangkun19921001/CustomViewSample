@@ -12,7 +12,7 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MapActivity"
+        <activity android:name=".SVGDemo1Activity"
         android:configChanges="orientation|screenSize"
         >
             <intent-filter>
@@ -21,6 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <!--<activity android:name=".SVGDemo1Activity"/>-->
         <!--<activity android:name=".PathActivity"/>-->
         <!--<activity android:name=".CanvasSample"/>-->
         <!--<activity android:name=".TestActivity1"/>-->

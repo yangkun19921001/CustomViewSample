@@ -12,4 +12,12 @@
             android:repeatCount="-1"
 
     />
+
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:propertyName="start"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:duration="2000"
+    >
+    </objectAnimator>
 </set>

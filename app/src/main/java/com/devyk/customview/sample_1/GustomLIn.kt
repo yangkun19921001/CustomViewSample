@@ -4,7 +4,6 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.widget.LinearLayout
-import androidx.appcompat.widget.AppCompatButton
 
 /**
  * <pre>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="580dp"
+    android:height="400dp"
+    android:viewportWidth="580"
+    android:viewportHeight="400">
+
+
+    <path
+        android:name="svg_1"
+        android:strokeColor="#000"
+        android:strokeWidth="1.5"
+        android:pathData="M 164.54545 211.91761 L 380 212.8267" />
+    <path
+        android:name="svg_2"
+        android:strokeColor="#000"
+        android:strokeWidth="1.5"
+        android:pathData="M 360 180.09943 C 366.024924042 180.09943 370.90909 184.780091469 370.90909 190.55398 C 370.90909 196.327868531 366.024924042 201.00853 360 201.00853 C 353.975075958 201.00853 349.09091 196.327868531 349.09091 190.55398 C 349.09091 184.780091469 353.975075958 180.09943 360 180.09943 Z" />
+    <path
+        android:name="svg_3"
+        android:strokeColor="#000"
+        android:strokeWidth="1.5"
+        android:pathData="M 369.09091 197.37216 L 380.90909 208.28125" />
+</vector>

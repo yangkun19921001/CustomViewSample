@@ -4,7 +4,6 @@ import android.app.Activity
 import android.graphics.drawable.Drawable
 import android.os.Build
 import android.os.Bundle
-import androidx.annotation.RequiresApi
 import com.devyk.custom_view.utils.Utils
 import kotlinx.android.synthetic.main.activity_canvas_sample.*
 
@@ -56,7 +55,6 @@ class CanvasSample : Activity() {
    lateinit var revealDrawables: Array<Drawable?>
 
 
-    @RequiresApi(Build.VERSION_CODES.LOLLIPOP)
     override fun onCreate(savedInstanceState: Bundle?) {
         Utils.setActivityFullScreen(this.window)
         super.onCreate(savedInstanceState)

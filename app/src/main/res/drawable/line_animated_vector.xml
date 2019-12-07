@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 xmlns:tools="http://schemas.android.com/tools"
+                 android:drawable="@drawable/ic_line"
+                 tools:targetApi="lollipop">
+
+
+
+    <target android:animation="@animator/anim_start"
+            android:name="num_1"></target>
+    <target android:animation="@animator/anim_start"
+            android:name="num_2"></target>
+
+    <target android:animation="@animator/anim_start"
+            android:name="num_3"></target>
+</animated-vector>
+

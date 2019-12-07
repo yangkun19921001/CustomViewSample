@@ -7,7 +7,6 @@ import android.graphics.Paint
 import android.util.AttributeSet
 import android.view.*
 import android.widget.Scroller
-import androidx.customview.widget.ViewDragHelper
 
 /**
  * <pre>

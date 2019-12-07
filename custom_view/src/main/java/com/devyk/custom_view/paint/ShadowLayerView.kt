@@ -6,7 +6,6 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.util.AttributeSet
 import android.view.View
-import androidx.core.view.ViewCompat.setAlpha
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
 
 
